@@ -18,7 +18,8 @@ def factorial(n):
     # Iterate through numbers from 1 to n (inclusive)
 
     # Write your code here
-    
+    for i in range(1, n + 1):
+        factorial *= i
 
     # Return the calculated factorial value
-    return result
+    return factorial
